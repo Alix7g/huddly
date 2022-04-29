@@ -154,4 +154,42 @@ footer{
     padding: 9px;
     border-radius: 20px;
 }
+
+
+
+
+@media (max-width: 400px) {
+    header{
+        width: 250%;
+        height: 530px;
+    }
+    header img{
+        width: 45%;
+    }
+    header nav {
+        width: 250px;
+    }
+    header nav .btn{
+        width: 150px;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    }
+    .centerH{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        width: 175%;
+        transform: translateX(104px);
+        height: 1200px;
+    }
+    main .box1, .box2, .box3{
+        height: 100%;
+        flex-direction: column;
+        font-size: 18px;
+    }
 }
+
